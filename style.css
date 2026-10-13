@@ -5,7 +5,7 @@
 }
 
 body {
-    margin-inline: 100px;
+  margin-inline: 200px;
 }
 
 main {
@@ -14,29 +14,66 @@ main {
 header {
 }
 
-header h1 {
+#felsonav span{
+  background-color: greenyellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#felsonav h1 {
+  color: green;
+}
+
+#felsonav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 #felsonav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+
 }
 
 #felsonav ul li {
 }
 
 #felsonav ul li a {
+  text-decoration: none;
 }
 
 header p {
+  background-color: green;
+  padding: 100px;
+}
+
+#alsonav{
+  
 }
 
 #alsonav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 #alsonav ul li {
 }
 
 #alsonav ul li a {
+  text-decoration: none;
 }
 
 .fo_tartalom {
+  
+}
+
+.tehenek img{
+  width: 50px;
+  background-color: greenyellow;
 }
